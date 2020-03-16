@@ -6,7 +6,7 @@ class App extends Component {
         return (
             <div>
                 <header>
-                    this is head  cessadsadsad
+                    this is head  cessadsadsad   随时随
                 </header>
                 <main>
                     <Test />
