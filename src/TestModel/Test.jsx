@@ -3,6 +3,7 @@
  */
 import React, { Component } from "react"
 import { Button } from 'antd';
+import './test.less';
 
 class Test extends Component {
 
@@ -16,7 +17,13 @@ class Test extends Component {
         <Button type="primary" onClick={this.showModal}>
           Open Modal
         </Button>
-        hello  world
+        <div>
+          <div className="testMain">
+            <div className="testMain-aaa">aaa</div>
+            <div className="testMain-bbb">bbb</div>
+          </div>
+
+        </div>
       </div>
     );
   }
