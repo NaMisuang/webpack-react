@@ -7,7 +7,7 @@ import { Button } from 'antd';
 class Test extends Component {
 
   showModal = () => {
-    alert(1111)
+    alert(111111)
   }
 
   render() {
