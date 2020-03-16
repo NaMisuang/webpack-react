@@ -16,7 +16,7 @@ class Test extends Component {
         <Button type="primary" onClick={this.showModal}>
           Open Modal
         </Button>
-
+        hello  world
       </div>
     );
   }
